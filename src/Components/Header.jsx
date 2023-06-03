@@ -17,14 +17,14 @@ const Header = () => {
 
         <div className="flex items-center gap-2 justify-between">
           <a
-            href=""
+            href="https://t.me/ZOONJIERC"
             target="_blank"
             className="bg-secondary h-10 w-10 flex justify-center items-center text-center text-2xl text-black rounded-full"
           >
             <FaTelegramPlane />
           </a>
           <a
-            href=""
+            href="http://Twitter.com/ZOONJIOFFICIAL"
             target="_blank"
             className="bg-secondary h-10 w-10 flex justify-center items-center text-center text-2xl text-black rounded-full"
           >

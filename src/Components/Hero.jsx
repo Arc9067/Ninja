@@ -5,7 +5,11 @@ const Hero = () => {
   return (
     <section className="pt-[100px] w-full min-h-screen flex justify-center items-center">
       <div className="container flex flex-col justify-center items-center text-center gap-3">
-        <img src={Logo} alt="" className="bg-secondary w-[15rem] rounded-full" />
+        <img
+          src={Logo}
+          alt=""
+          className="bg-secondary w-[15rem] rounded-full"
+        />
         <h1
           className="font-primary text-3xl max-w-[600px] leading-relaxed"
           data-aos="fade-right"
@@ -17,7 +21,8 @@ const Hero = () => {
         <div className="flex gap-4 flex-wrap justify-center items-center">
           {" "}
           <a
-            href=""
+            href="https://t.me/ZOONJIERC"
+            target="_blank"
             className="capitalize bg-secondary px-5 py-3 font-primary text-primary"
             data-aos="fade-up"
             data-aos-duration="700"
@@ -25,7 +30,7 @@ const Hero = () => {
             telegram
           </a>
           <a
-            href=""
+            href="http://Twitter.com/ZOONJIOFFICIAL"
             className="capitalize bg-secondary px-5 py-3 font-primary text-primary"
             data-aos="fade-left"
             data-aos-duration="700"
