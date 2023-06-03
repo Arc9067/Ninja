@@ -30,12 +30,12 @@ const Hero = () => {
             telegram
           </a>
           <a
-            href="http://Twitter.com/ZOONJIOFFICIAL"
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0x6e04333b1b364fbc21380abaa9c3fc29f83c3cb1"
             className="capitalize bg-secondary px-5 py-3 font-primary text-primary"
             data-aos="fade-left"
             data-aos-duration="700"
           >
-            twitter
+            chart
           </a>
         </div>{" "}
         <p
@@ -44,7 +44,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-duration="900"
         >
-          0x000000000000000000000000000000000
+          0x365a8b9c2937d99986eb49ce39ad442bf04574a7
         </p>
       </div>
     </section>
