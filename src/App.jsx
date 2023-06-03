@@ -5,7 +5,7 @@ import About from "./Components/About";
 
 const App = () => {
   return (
-    <div className="min-h-screen w-full relative bg-primary text-white">
+    <div className="min-h-screen w-full relative bg-black text-white">
       <Header />
       <Hero />
       <About />

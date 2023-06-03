@@ -5,7 +5,7 @@ import { TiSocialTwitter } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <header className="py-3 w-full bg-tertiary absolute top-0">
+    <header className="py-3 w-full bg- absolute top-0">
       <div className="container flex justify-between items-center">
         <a
           href=""
