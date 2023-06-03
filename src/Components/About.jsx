@@ -5,7 +5,13 @@ const About = () => {
   return (
     <div className="py-[50px] w-full bg-secondary">
       <div className="container grid lg:grid-cols-2 items-center justify-between gap-10">
-        <img src={Logo} alt="" className="mx-auto" />
+        <img
+          src={Logo}
+          alt=""
+          className="mx-auto"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        />
         <div className="text-primary flex flex-col gap-3">
           <h1
             className="font-primary text-3xl max-w-[600px] leading-relaxed"

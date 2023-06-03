@@ -12,7 +12,7 @@ const App = () => {
     AOS.init();
   }, []);
   return (
-    <div className="min-h-screen w-full relative bg-black text-white">
+    <div className="min-h-screen w-full overflow-hidden relative bg-black text-white">
       <Header />
       <Hero />
       <About />

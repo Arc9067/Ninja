@@ -11,12 +11,20 @@ const Map = () => {
   return (
     <section className="py-[50px] w-full">
       <div className="container flex justify-center items-center flex-col">
-        <h1 className="font-primary text-3xl max-w-[600px] leading-relaxed">
+        <h1
+          className="font-primary text-3xl max-w-[600px] leading-relaxed"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           roadmap
         </h1>
 
         <div className="grid w-full gap-12 grid-cols-1 text-center lg:grid-cols-3 justify-between items-center mt-14">
-          <div className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col  py-10">
+          <div
+            className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col  py-10"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h1 className="text-2xl font-primary">Tadpole Stage</h1>
             <ul className="flex flex-col list-decimal list-inside gap-3">
               <li className="text-center">
@@ -30,7 +38,11 @@ const Map = () => {
               </li>
             </ul>
           </div>
-          <div className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col py-10">
+          <div
+            className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col py-10"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <h1 className="text-2xl font-primary"> Froglet Growth (Q4 2023)</h1>
             <ul className="flex flex-col list-decimal list-inside gap-3">
               <li className="text-center">
@@ -45,7 +57,11 @@ const Map = () => {
               </li>
             </ul>{" "}
           </div>
-          <div className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col py-10">
+          <div
+            className="min-h-[320px]  bg-transparent hover:bg-secondary rounded-lg ring-1 ring-secondary flex justify-center items-center flex-col py-10"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <h1 className="text-2xl font-primary">
               {" "}
               Leaping Success (Q2 2024)
