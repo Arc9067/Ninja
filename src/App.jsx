@@ -7,6 +7,7 @@ import Map from "./Components/Map";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Swap from "./Components/Swap";
+import Footer from "./Components/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -19,7 +20,8 @@ const App = () => {
       <About />
       <Token />
       <Map />
-      <Swap />
+      {/* <Swap /> */}
+      <Footer />
     </div>
   );
 };
