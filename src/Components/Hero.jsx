@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <section className="pt-[100px] w-full min-h-screen flex justify-center items-center">
       <div className="container flex flex-col justify-center items-center text-center gap-3">
+        <img src={Logo} alt="" className="bg-secondary w-[15rem] rounded-full" />
         <h1
           className="font-primary text-3xl max-w-[600px] leading-relaxed"
           data-aos="fade-right"
