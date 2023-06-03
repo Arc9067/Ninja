@@ -25,7 +25,7 @@ const Token = () => {
             data-aos="fade-up"
             data-aos-duration="800"
           >
-            <h2 className="">Ticker : $ZNJI </h2>
+            <h2 className="">Ticker : ZNJI </h2>
           </article>
           <article
             className="h-28 w-28 bg-secondary text-xl flex justify-center items-center text-center text-primary font-primary"

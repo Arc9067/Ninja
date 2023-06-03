@@ -6,6 +6,7 @@ import Token from "./Components/Token";
 import Map from "./Components/Map";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Swap from "./Components/Swap";
 
 const App = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const App = () => {
       <About />
       <Token />
       <Map />
+      <Swap />
     </div>
   );
 };
