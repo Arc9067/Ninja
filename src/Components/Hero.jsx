@@ -24,6 +24,12 @@ const Hero = () => {
             twitter
           </a>
         </div>{" "}
+        <p
+          className="text-secondary font-primary break-all text-2xl mt-8
+        "
+        >
+          0x000000000000000000000000000000000
+        </p>
       </div>
     </section>
   );
