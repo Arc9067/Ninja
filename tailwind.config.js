@@ -19,7 +19,7 @@ export default {
         tertiary: "#353843",
       },
       fontFamily: {
-        primary: ["Ninja Naruto", "sans-serif"],
+        primary: ["THE AMAZING SPIDER-MAN", "sans-serif"],
       },
     },
   },
