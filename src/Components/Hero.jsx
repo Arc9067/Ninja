@@ -46,6 +46,14 @@ const Hero = () => {
         >
           0x365a8b9c2937d99986eb49ce39ad442bf04574a7
         </p>
+        <p
+          className="text-secondary font-primary break-all text-2xl mt-8
+        "
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
+          Team@zoonji.cm
+        </p>
       </div>
     </section>
   );
